@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://media.istockphoto.com/id/1490623502/photo/powerful-cpu-on-circuit-board-with-glowing-data-transfer.jpg?s=612x612&w=0&k=20&c=n2Y5M9I_gKN4ukhImjZ8b5JHXb7WeaCLF6ywntFhOqM=);
+    background-size: cover;
+}
+
+.headcont {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: rgba(86, 23, 232, 0.7);
+
+}
+
+.headcont .drop {
+    display: block;
+    padding: 5px;
+    margin-top: 20px;
+    flex-basis: 200px;
+    position: relative;
+
+
+}
+
+.headcont .logo {
+    flex-basis: 210px;
+    display: flex;
+
+}
+
+.headcont .logo .img {
+    flex-basis: 40%;
+    padding: 12px 5px;
+
+}
+
+.headcont .logo .img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.headcont .logo h2 {
+    flex: 1;
+    padding-top: 15px;
+    margin-left: 5px;
+    color: white;
+}
+
+.headcont .links {
+    flex: 1;
+
+}
+
+.headcont .links ul {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.headcont .links ul li {
+    flex: 1;
+    padding: 10px;
+}
+
+.headcont .links ul li a {
+    font-size: 30px;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul li a:hover {
+    color: aqua;
+
+}
+
+.headcont .drop span:nth-child(1) {
+    background: white;
+    width: 20px;
+    height: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+
+}
+
+.headcont .drop span:nth-child(2) {
+    background: white;
+    width: 30px;
+    height: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+
+
+}
+
+.headcont .drop span {
+    background: white;
+    width: 40px;
+    height: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+
+}
+
+.headcont .drop:hover span {
+
+    width: 40px;
+    transition: 0.3s;
+
+
+}
+
+.headcont .drop .menu {
+    position: relative;
+    display: none;
+    height: calc(100vh - 150px);
+    width: 550px;
+    background-color: rgb(77 36 116 / 60%);
+    border-radius: 10px;
+    outline: rgb(72 72 230 / 80%) double;
+    margin: auto;
+    top: 64px;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+.headcont .drop:hover .menu {
+    display: block;
+}
+
+.headcont .drop:hover .menu .fets {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 23%;
+}
+
+.headcont .drop:hover .menu .fets h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.headcont .drop:hover .menu .fets a {
+    color: #82bfbf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.headcont .drop:hover .menu .fets a:hover {
+    color: aqua
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0 0 0 / 50%);
+    height: calc(100vh - 50px);
+    width: 100%;
+}
